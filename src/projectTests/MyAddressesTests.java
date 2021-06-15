@@ -64,9 +64,11 @@ public class MyAddressesTests extends BaseTests{
 		myAddressesPage.deleteButtonClick();
 		driver.switchTo().alert().accept();
 		
-		String textForAssertion = citacIzExcela.getStringData("MyAccountTests", 33, 2);
-		String actualText = myAddressesPage.textFromAddressLabel();
-		assertEquals(actualText, textForAssertion);
+		int numberOfAddresses = myAddressesPage.numberOfAddresses();
+		assertEquals(numberOfAddresses, 1);
+		//String textForAssertion = citacIzExcela.getStringData("MyAccountTests", 33, 2);
+		//String actualText = myAddressesPage.textFromAddressLabel();
+		//assertEquals(actualText, textForAssertion);
 	}
 	
 	

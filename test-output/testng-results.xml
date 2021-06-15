@@ -1,69 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="66174" started-at="2021-06-15T20:18:53 CEST" finished-at="2021-06-15T20:19:59 CEST">
+  <suite name="Default suite" duration-ms="41358" started-at="2021-06-15T20:59:02 CEST" finished-at="2021-06-15T20:59:43 CEST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="66174" started-at="2021-06-15T20:18:53 CEST" finished-at="2021-06-15T20:19:59 CEST">
-      <class name="projectTests.MyWishlistTests">
-        <test-method status="PASS" signature="preSihTestova()[pri:0, instance:projectTests.MyWishlistTests@fad74ee]" name="preSihTestova" is-config="true" duration-ms="2110" started-at="2021-06-15T20:18:53 CEST" finished-at="2021-06-15T20:18:55 CEST">
+    <test name="Default test" duration-ms="41358" started-at="2021-06-15T20:59:02 CEST" finished-at="2021-06-15T20:59:43 CEST">
+      <class name="projectTests.MyAddressesTests">
+        <test-method status="PASS" signature="preSihTestova()[pri:0, instance:projectTests.MyAddressesTests@fad74ee]" name="preSihTestova" is-config="true" duration-ms="1974" started-at="2021-06-15T20:59:02 CEST" finished-at="2021-06-15T20:59:04 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preSihTestova -->
-        <test-method status="PASS" signature="preSvakogTesta()[pri:0, instance:projectTests.MyWishlistTests@fad74ee]" name="preSvakogTesta" is-config="true" duration-ms="3359" started-at="2021-06-15T20:18:55 CEST" finished-at="2021-06-15T20:18:58 CEST">
+        <test-method status="PASS" signature="preSvakogTesta()[pri:0, instance:projectTests.MyAddressesTests@fad74ee]" name="preSvakogTesta" is-config="true" duration-ms="3324" started-at="2021-06-15T20:59:04 CEST" finished-at="2021-06-15T20:59:07 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preSvakogTesta -->
-        <test-method status="PASS" signature="addWishList()[pri:0, instance:projectTests.MyWishlistTests@fad74ee]" name="addWishList" duration-ms="9369" started-at="2021-06-15T20:18:58 CEST" finished-at="2021-06-15T20:19:08 CEST">
+        <test-method status="PASS" signature="addANewAddress()[pri:0, instance:projectTests.MyAddressesTests@fad74ee]" name="addANewAddress" duration-ms="9161" started-at="2021-06-15T20:59:07 CEST" finished-at="2021-06-15T20:59:16 CEST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addWishList -->
-        <test-method status="PASS" signature="posleSvakogTesta()[pri:0, instance:projectTests.MyWishlistTests@fad74ee]" name="posleSvakogTesta" is-config="true" duration-ms="1646" started-at="2021-06-15T20:19:08 CEST" finished-at="2021-06-15T20:19:09 CEST">
+        </test-method> <!-- addANewAddress -->
+        <test-method status="PASS" signature="posleSvakogTesta()[pri:0, instance:projectTests.MyAddressesTests@fad74ee]" name="posleSvakogTesta" is-config="true" duration-ms="2703" started-at="2021-06-15T20:59:16 CEST" finished-at="2021-06-15T20:59:19 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- posleSvakogTesta -->
-        <test-method status="PASS" signature="preSvakogTesta()[pri:0, instance:projectTests.MyWishlistTests@fad74ee]" name="preSvakogTesta" is-config="true" duration-ms="1462" started-at="2021-06-15T20:19:09 CEST" finished-at="2021-06-15T20:19:11 CEST">
+        <test-method status="PASS" signature="preSvakogTesta()[pri:0, instance:projectTests.MyAddressesTests@fad74ee]" name="preSvakogTesta" is-config="true" duration-ms="1648" started-at="2021-06-15T20:59:19 CEST" finished-at="2021-06-15T20:59:20 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preSvakogTesta -->
-        <test-method status="PASS" signature="addMultipleWishlist()[pri:5, instance:projectTests.MyWishlistTests@fad74ee]" name="addMultipleWishlist" duration-ms="13754" started-at="2021-06-15T20:19:11 CEST" finished-at="2021-06-15T20:19:24 CEST">
+        <test-method status="PASS" signature="deleteAddress()[pri:5, instance:projectTests.MyAddressesTests@fad74ee]" name="deleteAddress" duration-ms="7073" started-at="2021-06-15T20:59:20 CEST" finished-at="2021-06-15T20:59:28 CEST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addMultipleWishlist -->
-        <test-method status="PASS" signature="posleSvakogTesta()[pri:0, instance:projectTests.MyWishlistTests@fad74ee]" name="posleSvakogTesta" is-config="true" duration-ms="1432" started-at="2021-06-15T20:19:24 CEST" finished-at="2021-06-15T20:19:26 CEST">
+        </test-method> <!-- deleteAddress -->
+        <test-method status="PASS" signature="posleSvakogTesta()[pri:0, instance:projectTests.MyAddressesTests@fad74ee]" name="posleSvakogTesta" is-config="true" duration-ms="1177" started-at="2021-06-15T20:59:28 CEST" finished-at="2021-06-15T20:59:29 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- posleSvakogTesta -->
-        <test-method status="PASS" signature="preSvakogTesta()[pri:0, instance:projectTests.MyWishlistTests@fad74ee]" name="preSvakogTesta" is-config="true" duration-ms="1473" started-at="2021-06-15T20:19:26 CEST" finished-at="2021-06-15T20:19:27 CEST">
+        <test-method status="PASS" signature="preSvakogTesta()[pri:0, instance:projectTests.MyAddressesTests@fad74ee]" name="preSvakogTesta" is-config="true" duration-ms="1088" started-at="2021-06-15T20:59:29 CEST" finished-at="2021-06-15T20:59:30 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preSvakogTesta -->
-        <test-method status="PASS" signature="deleteWishlist()[pri:10, instance:projectTests.MyWishlistTests@fad74ee]" name="deleteWishlist" duration-ms="5940" started-at="2021-06-15T20:19:27 CEST" finished-at="2021-06-15T20:19:33 CEST">
+        <test-method status="PASS" signature="updateAddress()[pri:10, instance:projectTests.MyAddressesTests@fad74ee]" name="updateAddress" duration-ms="10836" started-at="2021-06-15T20:59:30 CEST" finished-at="2021-06-15T20:59:41 CEST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- deleteWishlist -->
-        <test-method status="PASS" signature="posleSvakogTesta()[pri:0, instance:projectTests.MyWishlistTests@fad74ee]" name="posleSvakogTesta" is-config="true" duration-ms="4643" started-at="2021-06-15T20:19:33 CEST" finished-at="2021-06-15T20:19:38 CEST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- posleSvakogTesta -->
-        <test-method status="PASS" signature="preSvakogTesta()[pri:0, instance:projectTests.MyWishlistTests@fad74ee]" name="preSvakogTesta" is-config="true" duration-ms="3382" started-at="2021-06-15T20:19:38 CEST" finished-at="2021-06-15T20:19:41 CEST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- preSvakogTesta -->
-        <test-method status="PASS" signature="deleteAllWishlists()[pri:15, instance:projectTests.MyWishlistTests@fad74ee]" name="deleteAllWishlists" duration-ms="13347" started-at="2021-06-15T20:19:41 CEST" finished-at="2021-06-15T20:19:55 CEST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteAllWishlists -->
-        <test-method status="PASS" signature="posleSvakogTesta()[pri:0, instance:projectTests.MyWishlistTests@fad74ee]" name="posleSvakogTesta" is-config="true" duration-ms="4171" started-at="2021-06-15T20:19:55 CEST" finished-at="2021-06-15T20:19:59 CEST">
+        </test-method> <!-- updateAddress -->
+        <test-method status="PASS" signature="posleSvakogTesta()[pri:0, instance:projectTests.MyAddressesTests@fad74ee]" name="posleSvakogTesta" is-config="true" duration-ms="2223" started-at="2021-06-15T20:59:41 CEST" finished-at="2021-06-15T20:59:43 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- posleSvakogTesta -->
-        <test-method status="PASS" signature="posleSihTestova()[pri:0, instance:projectTests.MyWishlistTests@fad74ee]" name="posleSihTestova" is-config="true" duration-ms="50" started-at="2021-06-15T20:19:59 CEST" finished-at="2021-06-15T20:19:59 CEST">
+        <test-method status="PASS" signature="posleSihTestova()[pri:0, instance:projectTests.MyAddressesTests@fad74ee]" name="posleSihTestova" is-config="true" duration-ms="121" started-at="2021-06-15T20:59:43 CEST" finished-at="2021-06-15T20:59:43 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- posleSihTestova -->
-      </class> <!-- projectTests.MyWishlistTests -->
+      </class> <!-- projectTests.MyAddressesTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

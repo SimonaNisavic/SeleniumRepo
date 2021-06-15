@@ -1,5 +1,7 @@
 package projectPages;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -157,6 +159,12 @@ public class MyAddressesPage {
 	}
 	public String textFromSecondAddressTitleLabel() {
 		return this.getSecondAddressTitleLabel().getText();
+	}
+	
+	public int numberOfAddresses() {
+		List <WebElement> listAddresses = driver.findElements(By.xpath("//*[@id=\"center_column\"]/div[1]/div/div/ul/li[9]/a[2]"));
+		return listAddresses.size();
+				
 	}
 	
 }
