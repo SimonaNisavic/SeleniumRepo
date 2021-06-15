@@ -8,7 +8,7 @@ public class MainNavigation {
 
 	WebDriver driver;
 	WebElement signInTab;
-	WebElement dressesTab;
+	
 	
 	public MainNavigation(WebDriver driver) {
 		super();
@@ -23,11 +23,5 @@ public class MainNavigation {
 		this.getSignInTab().click();
 	}
 
-	public WebElement getDressesTab() {
-		return driver.findElement(By.xpath("//*[@id=\"block_top_menu\"]/ul/li[2]/a"));
-	}
 	
-	public void dressesTabClick() {
-		this.getDressesTab().click();
-	}
 }

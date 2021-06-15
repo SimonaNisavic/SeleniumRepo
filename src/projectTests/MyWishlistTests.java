@@ -33,13 +33,10 @@ public class MyWishlistTests extends BaseTests{
 		String password = citacIzExcela.getStringData("LogInTests", 7, 2);
 		logInFormFilling(emailAddress, password);
 		myAccountPage.myWishlistsClick();	
-		myWishlistPage.insertWishlistName(citacIzExcela.getStringData("MyAccountTests", 87, 2));
-		myWishlistPage.saveButtonClick();
-		myWishlistPage.insertWishlistName(citacIzExcela.getStringData("MyAccountTests", 89, 2));
-		myWishlistPage.saveButtonClick();
-		myWishlistPage.insertWishlistName(citacIzExcela.getStringData("MyAccountTests", 91, 2));
-		myWishlistPage.saveButtonClick();
-		
+		for (int i = 0; i<5; i+=2) {
+			myWishlistPage.insertWishlistName(citacIzExcela.getStringData("MyAccountTests", 87+i, 2));
+			myWishlistPage.saveButtonClick();
+		}
 		int actualNumberOfLists = myWishlistPage.numberOfWishlists();
 		assertEquals(actualNumberOfLists, 4);
 				
@@ -60,6 +57,19 @@ public class MyWishlistTests extends BaseTests{
 		assertEquals(actualNumberOfLists, 3);
 				
 }
+    @Test(priority = 15)
+      public void deleteAllWishlists() throws InterruptedException {
+  	    String emailAddress = citacIzExcela.getStringData("LogInTests", 6, 2);
+		String password = citacIzExcela.getStringData("LogInTests", 7, 2);
+		logInFormFilling(emailAddress, password);
+		myAccountPage.myWishlistsClick();
+		for (int i = 0; i<3; i++) {
+		myWishlistPage.deleteWishListClick();
+	    driver.switchTo().alert().accept();
+	    Thread.sleep(2000);
+		}
+}
+  
 	
 	public void logInFormFilling(String emailAddress, String password) {
 		mainNavigation.signInTabClick();
